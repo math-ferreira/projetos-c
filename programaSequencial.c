@@ -8,8 +8,6 @@ https://github.com/ufabc-bcc/2019_Q1_PP_MPI-projetotimem-m
 #include <time.h>
 
 int main() {
-    clock_t start = clock(); //Inicia a contagem do tempo para o Programa
-
     // Apresenta mensagem inicial para usuario entrar com valor N
     // para limite superior até qual todos os números primos deverão ser gerados
     printf("Digite seu limite superior dos numeros primos: ");
@@ -37,6 +35,4 @@ int main() {
         }
     }
     printf("%ld\n", soma);
-    double tempoTotal = (double)(clock() - start) / CLOCKS_PER_SEC;
-    printf ("Tempo total do programa: %lf\n", tempoTotal);
 }
