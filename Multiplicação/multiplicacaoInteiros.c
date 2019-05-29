@@ -10,14 +10,14 @@ int func(){
 	printf("- Digite duas variaveis inteiras:\n");
 	int x,y;
 	scanf("%d %d", &x ,&y);
-	printf("O resultado da multiplicação é: %d\n\n-----\n\n", x*y);
+	printf("O resultado da multiplicaÃ§Ã£o Ã©: %d\n\n-----\n\n", x*y);
 }
 int main(){
 	func();
 	
 	char valida[3];
 	
-	printf("Deseja realizar outra multiplicação ?\n");
+	printf("Deseja realizar outra multiplicaÃ§Ã£o ?\n");
 	scanf("%s",&valida);
 	
 	//  A strcmp compara uma string com outra string:
